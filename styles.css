@@ -1,14 +1,29 @@
+/* common section  */
+
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5% 10%;
+    margin: 0;
+}
+nav{
+    margin-left: 7%;
 }
 section{
     padding-bottom: 100px;
+    margin: 5% 7% 0%;
 }
 .flexible-content{
     display: flex;
     justify-content: center;
 }
+.top-padding{
+    padding-top: 40px;
+}
+.down-padding{
+    padding-bottom: 20px;
+}
+
+/* influencer section  */
+
 .influencer h1{
     font-size: 40px;
     font-weight: 700;
@@ -16,12 +31,13 @@ section{
 .half-width{
     width: 50%;
     margin: auto;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .half-width img{
+    padding-left: 10%;
     width:80%;
 }
-.link-button{
+.preebook-button{
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -32,10 +48,56 @@ section{
 .influencer-img{
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right;
     margin-left: 10%;
     padding-top: 5%;
 }
-.down-padding{
-    padding-bottom: 20px;
+.influencer-img:hover img{
+    transform: scale(1.2) rotate(20deg);
+    transition: transform 1s ease-in-out;
 }
 
+/* popular collection section */
+
+.collections{
+    margin: 5% 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.collection-items{
+    margin: 10px 15px;
+    padding: 10px 10px;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px grey;
+}
+.collection-item-img{
+    border-radius: 5%;
+}
+.price-tag{
+    font-weight: 400;
+}
+.fa-star{
+    color: gold;
+}
+.fa-star-half-alt{
+    color: gold;
+}
+.star-ratings, .collection-item-desc{
+    font-size: 12px;
+    font-weight: 700;
+    color: grey;
+}
+/* footer-section  */
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 41);
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.fa-facebook-square, .fa-instagram-square, .fa-youtube, .fa-linkedin{
+    font-size: 20px;
+}
