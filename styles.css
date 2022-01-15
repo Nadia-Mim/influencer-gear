@@ -61,7 +61,7 @@ section{
 /* popular collection section */
 
 .collections{
-    margin: 5% 5%;
+    padding: 5% 5%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     
