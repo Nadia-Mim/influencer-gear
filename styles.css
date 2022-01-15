@@ -141,3 +141,36 @@ footer{
 .fa-facebook-square, .fa-instagram-square, .fa-youtube, .fa-linkedin{
     font-size: 20px;
 }
+
+/* media queries */
+/* Mobile devices- 688px */
+
+@media only screen and (max-width:688px){
+    .influencer-section{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+    .collections{
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+    .consultation-section{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+}
+
+/* Tab devices- 689-992px */
+
+@media only screen and (min-width:689px) and (max-width:992px){
+    .influencer-section{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+    .collections{
+        grid-template-columns:repeat(2, 1fr) ;
+    }
+    .consultation-section{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+}
