@@ -9,7 +9,7 @@ nav{
 }
 section{
     padding-bottom: 100px;
-    margin: 5% 7% 0%;
+    margin: 5% 7% 0% 7%;
 }
 .flexible-content{
     display: flex;
@@ -89,6 +89,46 @@ section{
     font-weight: 700;
     color: grey;
 }
+.seemore-button-text{
+    text-align: right;
+}
+.seemore-button{
+    text-decoration: none;
+    color: #ba028c;
+    font-weight: 700;
+    
+}
+/* consultation-section */
+.consultation h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.half-width-consultation{
+    width: 50%;
+    margin: auto;
+    padding-right: 20px;
+}
+.half-width-consultation img{
+    padding-left: 10%;
+    width:80%;
+}
+.join-now-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #ba028c;
+    padding: 2% 5%;
+    border-radius: 50px;
+}
+.consultation-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    margin-right: 10%;
+    padding-top: 5%;
+}
+
 /* footer-section  */
 
 footer{
